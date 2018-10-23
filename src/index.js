@@ -3,11 +3,11 @@ var Alexa = require('alexa-app');
 var skillService = new Alexa.app('foodFinder');
 const AWS = require('aws-sdk');
 
-var appId = 'amzn1.ask.skill.3fedbbd5-4dc5-49aa-a324-662fdd8f035a';
+var appId = null;
 
 var req = require('superagent');
 
-var googleapi = 'AIzaSyA-5tK376e77b7JBJkguMkzFig1Q572iQI';
+var googleapi = null;
 
 var distance = 16100;
 
